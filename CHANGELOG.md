@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`e49d1a0`](https://github.com/stdlib-js/stdlib/commit/e49d1a00ad07054f006f0a9a3fd52dbce217ea84) - **docs:** add note _(by Athan Reines)_
 -   [`23d7b87`](https://github.com/stdlib-js/stdlib/commit/23d7b87841cfebba942d5c35728dcd28a8336159) - **docs:** update example _(by Athan Reines)_
 -   [`b7368a4`](https://github.com/stdlib-js/stdlib/commit/b7368a45d5b0cc0bbdf695291837eee3d726da0a) - **fix:** handle edge case when provided an empty ndarray _(by Athan Reines)_
 -   [`2798013`](https://github.com/stdlib-js/stdlib/commit/2798013a8edf4eb58a762928e8625089eef0f4f5) - **docs:** update example _(by Athan Reines)_
