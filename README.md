@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import pop from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-pop@deno/mod.js';
+import pop from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-pop@v0.1.1-deno/mod.js';
 ```
 
 #### pop( x, dim, writable )
@@ -118,7 +118,7 @@ The function accepts the following arguments:
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
-import pop from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-pop@deno/mod.js';
+import pop from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-pop@v0.1.1-deno/mod.js';
 
 // Create a linear data buffer:
 var buf = zeroTo( 27 );
