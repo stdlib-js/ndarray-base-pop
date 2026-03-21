@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-21)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f5c5dfa`](https://github.com/stdlib-js/stdlib/commit/f5c5dfaf00b470450be52e27649c745019b61aa3) - **bench:** refactor to use string interpolation in `ndarray/base/pop` [(#11061)](https://github.com/stdlib-js/stdlib/pull/11061) _(by Partha Das)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Partha Das
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
