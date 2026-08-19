@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,24 +16,35 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Return an array containing a truncated view of an input ndarray and a view of the last element(s) along a specified dimension.
+* Returns an array containing a truncated view of an input ndarray and a view of the last element(s) along a specified dimension.
 *
-* @module @stdlib/ndarray-base-pop
+* ## Notes
+*
+* -   The input array must have one or more dimensions.
+*
+* @param x - input array
+* @param dim - dimension along which to perform the operation
+* @param writable - boolean indicating whether returned arrays should be writable
+* @returns a list of ndarrays
 *
 * @example
+* var Float64Array = require( '@stdlib/array-float64' );
 * var ndarray = require( '@stdlib/ndarray-ctor' );
 * var ndarray2array = require( '@stdlib/ndarray-to-array' );
-* var pop = require( '@stdlib/ndarray-base-pop' );
 *
-* var buffer = [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
+* var buffer = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 * var shape = [ 3, 2 ];
 * var strides = [ 2, 1 ];
 * var offset = 0;
 *
-* var x = ndarray( 'generic', buffer, shape, strides, offset, 'row-major' );
+* var x = ndarray( 'float64', buffer, shape, strides, offset, 'row-major' );
 * // returns <ndarray>
 *
 * var arr = ndarray2array( x );
@@ -48,12 +59,9 @@
 * arr = ndarray2array( y[ 1 ] );
 * // returns [ [ 5.0, 6.0 ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function pop<T extends ndarray = ndarray>( x: T, dim: number, writable: boolean ): [ T, T ];
 
 
 // EXPORTS //
 
-module.exports = main;
+export = pop;
